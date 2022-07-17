@@ -1,0 +1,35 @@
+.setting_instance {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 30px 0px;
+  border-bottom: 1px solid #eee;
+}
+.setting_instance i {
+  width: 30px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+}
+.setting_instance span:first-of-type {
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 8px;
+}
+.setting_instance div {
+  height: 19px;
+  width: 19px;
+  color: white;
+  background-color: tomato;
+  font-size: 12px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.setting_instance span:nth-of-type(2) {
+  font-size: 20px;
+  color: #999;
+  position: absolute;
+  right: 0%;
+}

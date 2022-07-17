@@ -1,0 +1,44 @@
+.more_function {
+  display: flex;
+  flex-wrap: wrap;
+}
+.more_function__instance {
+  color: #335;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.more_function__instance i {
+  margin: 30px 50px;
+}
+.more_function__instance span {
+  font-size: 15px;
+}
+.app_recommend {
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+.app_recommend__title {
+  font-size: 16px;
+  font-weight: 700;
+}
+.app_recommend__apps {
+  display: flex;
+  flex-wrap: wrap;
+}
+.app_recommend__apps__instance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0px 30px;
+}
+.app_recommend__apps__instance img {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  margin: 10px 30px;
+}
+.app_recommend__apps__instance span {
+  color: #999;
+}

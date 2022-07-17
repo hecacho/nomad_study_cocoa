@@ -1,0 +1,60 @@
+.nav {
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 100;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav__btn {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav__btn--sellect {
+  color: var(--main-color);
+}
+.nav__link {
+  height: inherit;
+  width: 25vw;
+  display: block;
+  display: flex;
+  justify-content: center;
+}
+.nav__link i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.nav__notification_msg {
+  width: 17px;
+  height: 17px;
+  color: white;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 11px;
+  position: absolute;
+  z-index: 10;
+  top: 10px;
+  right: -5px;
+  border-radius: 50px;
+}
+.nav__notification_dot {
+  width: 6px;
+  height: 6px;
+  background-color: tomato;
+  position: absolute;
+  top: 13px;
+  right: -7px;
+  border-radius: 50px;
+}

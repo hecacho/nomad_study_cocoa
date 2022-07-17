@@ -1,0 +1,55 @@
+.screen-header__div_two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px var(--horizontal-space) 20px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: white;
+  z-index: 99;
+  border-bottom: 1px solid #eee;
+}
+.screen-header__div_two__title {
+  font-size: 30px;
+  font-weight: 900;
+}
+.screen-header__div_two__icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.screen-header__div_two__icons div {
+  margin-left: 20px;
+  position: relative;
+}
+.screen-header__div_two__icon-msg {
+  font-size: 13px;
+  font-weight: 700;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  right: -1px;
+  top: 2px;
+}
+
+.screen-header__div_three {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px var(--horizontal-space) 20px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: white;
+  z-index: 99;
+  border-bottom: 1px solid #eee;
+}
+.screen-header__div_three span {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.screen-header__div_three-chatting {
+  background-color: #9caebf;
+  border-bottom: none;
+}

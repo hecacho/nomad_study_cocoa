@@ -1,0 +1,196 @@
+.chatting_screen {
+  background-color: #abc1d1;
+}
+
+.chatting__main-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chatting__main-screen__time_stamp {
+  height: 35px;
+  width: 200px;
+  color: white;
+  background-color: #9caebf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+}
+.chatting__main-screen__friend_chat {
+  width: 100%;
+  display: flex;
+  margin: 8px 0px;
+}
+.chatting__main-screen__friend_chat img {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.chatting__main-screen__friend_chat__div_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.chatting__main-screen__friend_chat__div_column > span {
+  font-size: 15px;
+  padding-bottom: 6px;
+}
+.chatting__main-screen__friend_chat__div_column > div {
+  display: flex;
+  align-items: flex-end;
+}
+.chatting__main-screen__friend_chat__div_column > div > span:first-of-type {
+  font-size: 15px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  border-top-left-radius: 0%;
+}
+.chatting__main-screen__friend_chat__div_column > div > span:last-of-type {
+  font-size: 12px;
+  margin-left: 5px;
+}
+.chatting__main-screen__my_chat {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.chatting__main-screen__my_chat span:first-of-type {
+  font-size: 12px;
+  margin-right: 5px;
+}
+.chatting__main-screen__my_chat span:last-of-type {
+  font-size: 15px;
+  background-color: #fae100;
+  padding: 10px;
+  border-radius: 15px;
+  border-top-right-radius: 0%;
+}
+.chatting {
+  width: 100%;
+  position: fixed;
+  bottom: 0%;
+}
+.chatting_bar {
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.chatting_bar > span {
+  min-height: 28px;
+  min-width: 28px;
+  max-height: 28px;
+  max-width: 28px;
+  font-size: 30px;
+  color: #999;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #999;
+  border-radius: 8px;
+  margin: 12px;
+}
+.chatting_bar div {
+  height: 40px;
+  width: 100vw;
+  border: 1px solid #999;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 15px;
+  position: relative;
+}
+.chatting_bar div span {
+  padding: 12px;
+}
+.chatting_bar div i {
+  height: 35px;
+  width: 35px;
+  background-color: #fae100;
+  border-radius: 50%;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3px;
+}
+.chatting_keyboard {
+  height: 250px;
+  background-color: #ccc;
+}
+.chatting_keyboard__first_line,
+.chatting_keyboard__second_line,
+.chatting_keyboard__third_line,
+.chatting_keyboard__fourth_line {
+  display: flex;
+  justify-content: center;
+}
+.chatting_keyboard__first_line input,
+.chatting_keyboard__second_line input,
+.chatting_keyboard__third_line input,
+.chatting_keyboard__fourth_line input {
+  font-size: 30px;
+  font-weight: 500;
+  background-color: white;
+  width: 40px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 2px #999;
+  margin: 6px 3px;
+}
+.chatting_keyboard__first_line input:hover,
+.chatting_keyboard__second_line input:hover,
+.chatting_keyboard__third_line input:hover,
+.chatting_keyboard__fourth_line input:hover {
+  background-color: #eee;
+}
+.chatting_keyboard__first_line input:active,
+.chatting_keyboard__second_line input:active,
+.chatting_keyboard__third_line input:active,
+.chatting_keyboard__fourth_line input:active {
+  background-color: #999;
+}
+.chatting_keyboard__third_line input:first-child,
+.chatting_keyboard__third_line input:last-child {
+  background-color: #999;
+  font-size: 20px;
+  width: 100px;
+}
+.chatting_keyboard__fourth_line input:first-of-type,
+.chatting_keyboard__fourth_line input:nth-of-type(2) {
+  font-size: 20px;
+  background-color: #999;
+  width: 50px;
+}
+.chatting_keyboard__fourth_line input:last-of-type {
+  background-color: #999;
+  width: 100px;
+  font-size: 20px;
+}
+.chatting_keyboard__third_line input:first-child:hover,
+.chatting_keyboard__third_line input:last-child:hover,
+.chatting_keyboard__fourth_line input:first-of-type:hover,
+.chatting_keyboard__fourth_line input:nth-of-type(2):hover,
+.chatting_keyboard__fourth_line input:last-of-type:hover {
+  background-color: #777;
+}
+.chatting_keyboard__third_line input:first-child:active,
+.chatting_keyboard__third_line input:last-child:active,
+.chatting_keyboard__fourth_line input:first-of-type:active,
+.chatting_keyboard__fourth_line input:nth-of-type(2):active,
+.chatting_keyboard__fourth_line input:last-of-type:active {
+  background-color: #444;
+}
+.chatting_keyboard__fourth_line input:nth-last-of-type(3) {
+  font-size: 15px;
+}
+.chatting_keyboard__fourth_line input:nth-of-type(4) {
+  width: 250px;
+  font-size: 20px;
+}
